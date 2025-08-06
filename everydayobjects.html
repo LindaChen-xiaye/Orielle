@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Rose Origami</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Georgia", serif;
+      font-style: italic;
+      color: #3e3a36;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      z-index: 999;
+      padding: 12px 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-left a {
+      margin-right: 30px;
+      color: #333;
+      font-size: 18px;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-left a:hover {
+      color: #ffdc5c;
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      padding: 10px 20px;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      min-width: 180px;
+      z-index: 1000;
+      white-space: nowrap;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .submenu {
+      margin-bottom: 12px;
+    }
+
+    .submenu-title {
+      font-weight: bold;
+      font-size: 16px;
+      display: block;
+      color: #666;
+      margin-bottom: 4px;
+      text-decoration: none;
+      pointer-events: auto;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    
+    .submenu-title:hover {
+      text-decoration: underline;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+    
+    .submenu a {
+      display: block;
+      margin: 4px 0;
+      font-size: 16px;
+      color: #444;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .submenu a:hover {
+      text-decoration: none;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+    
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 100px 20px 60px;
+    }
+
+    h1, h2 {
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin: 100px 0 30px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .item {
+      width: 300px;
+    }
+
+    .item a {
+      color: black;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+      display: block;
+    }
+
+    .item a:hover {
+      text-decoration: underline;
+      transform: scale(1.05);
+      color: #ffdc5c;
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .item p {
+      font-size: 22px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+    <a href="index.html">Home</a>
+      <div class="dropdown">
+      <a href="OG1.1.html" class="dropbtn">Archive ▼</a>
+        <div class="dropdown-content">
+          <div class="submenu">
+            <a href="animals.html" class="submenu-title">Animals</a>
+            <a href="butterfly1.1.html">Butterfly</a>
+            <a href="comingsoon.html">Dolphin</a>
+            <a href="comingsoon.html">Swan</a>
+          </div>
+          <div class="submenu">
+            <a href="everydayobjects.html" class="submenu-title">Everyday Objects</a>
+            <a href="comingsoon.html">Crown</a>
+            <a href="comingsoon.html">Heart</a>
+            <a href="Star1.1.html">Star</a>
+          </div>
+          <div class="submenu">
+            <a href="plants.html" class="submenu-title">Plants</a>
+            <a href="comingsoon.html">Ginkgo Leaf</a>
+            <a href="comingsoon.html">Lily</a>
+            <a href="rose1.1.html">Rose</a>
+          </div>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>The Collection</h1>
+    <h2>Everyday Objects</h2>
+    <div class="links">
+      <div class="item">
+        <a href="Star1.1.html">
+          <img src="images/star.png" alt="Star diagram">
+          <p>Star</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="comingsoon.html">
+          <img src="images/crown.png" alt="Crown diagram">
+          <p>Crown</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="comingsoon.html">
+          <img src="images/heart.png" alt="Heart diagram">
+          <p>Heart</p>
+        </a>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    © 2025 Paperfold Archives · Created with quiet hands
+  </footer>
+</body>
+</html>

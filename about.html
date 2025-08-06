@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: "Georgia", serif;
+      font-style: italic;
+      color: #3e3a36;
+      line-height: 1.6;
+      background: #fff;
+    }
+  
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      z-index: 999;
+      padding: 12px 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-left a {
+      margin-right: 30px;
+      color: #333;
+      font-size: 18px;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-left a:hover {
+      color: #ffdc5c;
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      padding: 10px 20px;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      min-width: 180px;
+      z-index: 1000;
+      white-space: nowrap;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .submenu {
+      margin-bottom: 12px;
+    }
+
+    .submenu-title {
+      font-weight: bold;
+      font-size: 16px;
+      display: block;
+      color: #666;
+      margin-bottom: 4px;
+      text-decoration: none;
+      pointer-events: auto;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    
+    .submenu-title:hover {
+      text-decoration: underline;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+    
+    .submenu a {
+      display: block;
+      margin: 4px 0;
+      font-size: 16px;
+      color: #444;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .submenu a:hover {
+      text-decoration: none;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+  
+    .hero-image {
+      background-image: url("HTML/yellow-boat.jpg");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      color: white;
+    }
+  
+    h1 {
+        font-size: 48px;
+        margin-bottom: 80px;
+    }
+  
+    p {
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+
+    h1, p{
+        text-align: left;
+        max-width: 1250px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+    <a href="index.html">Home</a>
+      <div class="dropdown">
+      <a href="OG1.1.html" class="dropbtn">Archive ▼</a>
+        <div class="dropdown-content">
+          <div class="submenu">
+            <a href="animals.html" class="submenu-title">Animals</a>
+            <a href="butterfly1.1.html">Butterfly</a>
+            <a href="comingsoon.html">Dolphin</a>
+            <a href="comingsoon.html">Swan</a>
+          </div>
+          <div class="submenu">
+            <a href="everydayobjects.html" class="submenu-title">Everyday Objects</a>
+            <a href="comingsoon.html">Crown</a>
+            <a href="comingsoon.html">Heart</a>
+            <a href="Star1.1.html">Star</a>
+          </div>
+          <div class="submenu">
+            <a href="plants.html" class="submenu-title">Plants</a>
+            <a href="comingsoon.html">Ginkgo Leaf</a>
+            <a href="comingsoon.html">Lily</a>
+            <a href="rose1.1.html">Rose</a>
+          </div>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Welcome to Orielle</h1>
+        <p>Our mission is to make origami joyful, accessible, and rewarding for beginners, kids, and educators. Whether you are folding your first paper crane or teaching a classroom project, we're here to guide you with:</p><br>
+        <p>✂️ Step-by-step tutorials designed for small hands and new learners—simple, safe, and screen-friendly.</p>
+        <p>🎨 Creativity for all ages, from playful animals to seasonal decorations, with visual difficulty ratings so everyone can find their perfect fold.</p>
+        <p>📚 Resources for teachers & parents, including printable templates and culturally rich projects to spark curiosity.</p>
+      </div>
+    </div>
+</body>
+</html>

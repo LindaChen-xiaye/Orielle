@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Origami</title>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Georgia", serif;
+      font-style: italic;
+      color: #3e3a36;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      z-index: 999;
+      padding: 12px 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-left a {
+      margin-right: 30px;
+      color: #333;
+      font-size: 18px;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-left a:hover {
+      color: #ffdc5c;
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      padding: 10px 20px;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      min-width: 180px;
+      z-index: 1000;
+      white-space: nowrap;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .submenu {
+      margin-bottom: 12px;
+    }
+
+    .submenu-title {
+      font-weight: bold;
+      font-size: 16px;
+      display: block;
+      color: #666;
+      margin-bottom: 4px;
+      text-decoration: none;
+      pointer-events: auto;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    
+    .submenu-title:hover {
+      text-decoration: underline;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+    
+    .submenu a {
+      display: block;
+      margin: 4px 0;
+      font-size: 16px;
+      color: #444;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .submenu a:hover {
+      text-decoration: none;
+      transform: translateX(4px);
+      color: #ffdc5c;
+    }
+  
+    main {
+      max-width: 900px;
+      margin: 140px auto 0;
+      padding: 0 20px;
+      text-align: center;
+      user-select: none;
+    }
+  
+    h1 {
+      font-size: 48px;
+      margin: 60px 0 20px;
+    }
+  
+    h2 {
+      font-size: 36px;
+      margin: 80px 0 20px;
+    }
+  
+    p {
+      font-size: 22px;
+      margin: 30px 0;
+    }
+  
+    .image-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  
+    .image-row img {
+      width: 260px;
+      max-width: 90%;
+      height: auto;
+    }
+  
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #a09a91;
+      padding: 30px 20px;
+      border-top: 1px solid #665f59;
+      margin-top: 100px;
+    }
+</style>
+<body>
+  <nav>
+    <div class="nav-left">
+    <a href="index.html">Home</a>
+      <div class="dropdown">
+      <a href="OG1.1.html" class="dropbtn">Archive ▼</a>
+        <div class="dropdown-content">
+          <div class="submenu">
+            <a href="animals.html" class="submenu-title">Animals</a>
+            <a href="butterfly1.1.html">Butterfly</a>
+            <a href="comingsoon.html">Dolphin</a>
+            <a href="comingsoon.html">Swan</a>
+          </div>
+          <div class="submenu">
+            <a href="everydayobjects.html" class="submenu-title">Everyday Objects</a>
+            <a href="comingsoon.html">Crown</a>
+            <a href="comingsoon.html">Heart</a>
+            <a href="Star1.1.html">Star</a>
+          </div>
+          <div class="submenu">
+            <a href="plants.html" class="submenu-title">Plants</a>
+            <a href="comingsoon.html">Ginkgo Leaf</a>
+            <a href="comingsoon.html">Lily</a>
+            <a href="rose1.1.html">Rose</a>
+          </div>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+  
+  <main>
+    <h1>How To Fold A Butterfly</h1>
+    <p>Prepare to bring a touch of ethereal beauty to life with the art of origami! This guide will walk you through folding a delicate 3D butterfly, a symbol deeply rooted in themes of metamorphosis, graceful movement, and unfettered liberty.</p>
+    <p>This model is simple and fun to fold, making it perfect for beginners. All you need is a square piece of paper and a bit of patience.</p>
+
+    <h1>Butterfly Step-by-Step Instructions</h1>
+    <p>· Difficulty: Easy</p>
+    <p>· Folding time: 10-15 minutes</p>
+    <p>· Paper: 15*15 cm</p>
+    <p>· Total steps: 15</p>
+      
+    <h2 class="first">Step 1</h2>
+    <div class="image-row">
+        <img src="images/a1.png" alt="butterfly step 1"><img src="images/a2.png" alt="butterfly step 1">
+    </div>
+    <p>Take out a square piece of paper, fold it in <b>half vertically and horizontally</b>.</p>
+      
+    <h2>Step 2</h2>
+    <div class="image-row">
+            <img src="images/a3.png" alt="butterfly step 2">
+    </div>
+    <p>Now fold the paper <b>diagonally</b> in <b>both</b> directions to create creases.</p>
+      
+    <h2>Step 3</h2>
+    <div class="image-row">
+        <img src="images/a4.png" alt="butterfly step 3"><img src="images/a5.png" alt="butterfly step 3">
+    </div>
+    <p>Collapse the paper <b>inward</b> along the creases into a <b>triangle</b> shape.</p>
+      
+    <h2>Step 4</h2>
+    <div class="image-row">
+        <img src="images/a6.png" alt="butterfly step 4"><img src="images/a7.png" alt="butterfly step 4">
+    </div>
+    <p>Fold <b>both</b> corners of the triangle up to the top point.</p>
+      
+    <h2>Step 5</h2>
+    <div class="image-row">
+        <img src="images/a8.png" alt="butterfly step 5"><img src="images/a9.png" alt="butterfly step 5">
+    </div>
+    <p>Flip the model over and fold the <b>top</b> point <b>down past the bottom edge</b>.</p>
+      
+    <h2>Step 6</h2>
+    <div class="image-row">
+        <img src="images/a10.png" alt="butterfly step 6"><img src="images/a11.png" alt="butterfly step 6">
+    </div>
+    <p>Fold the model in <b>half vertically</b> (wings together).</p>
+      
+    <h2>Step 7</h2>
+    <div class="image-row">
+        <img src="images/a12.png" alt="butterfly step 7"><img src="images/a13.png" alt="butterfly step 7">
+    </div>
+    <p>Bend the wings down to shape the butterfly's top wings.</p>
+      
+    <h2>Step 8</h2>
+    <div class="image-row">
+        <img src="images/a14.png" alt="butterfly step 8"><img src="images/a15.png" alt="butterfly step 8">
+    </div>
+    <p>Adjust the folds gently to make the shape more 3D.</p>
+      
+    <h2>Step 9</h2>
+    <div class="image-row">
+        <img src="images/a17.png" alt="butterfly step 9"><img src="images/a18.png" alt="butterfly step 9">
+    </div>
+    <p>Pull out the wings slightly to add volume.</p>
+      
+    <h2>Step 10</h2>
+    <div class="image-row">
+        <img src="images/a19.png" alt="butterfly step 10">
+    </div>
+    <p>Gently open up the body and flatten the butterfly base.</p>
+      
+    <h2>Step 11</h2>
+    <div class="image-row">
+        <img src="images/a20.png" alt="butterfly step 11"><img src="images/a21.png" alt="butterfly step 11">
+    </div>
+    <p>Shape the wings <b>outward</b> to create a rounded look.</p>
+      
+    <h2>Step 12</h2>
+    <div class="image-row">
+        <img src="images/a22.png" alt="butterfly step 12"><img src="images/a23.png" alt="butterfly step 12">
+    </div>
+    <p>Press along the <b>center</b> to sharpen the fold lines.</p>
+      
+    <h2>Step 13</h2>
+    <div class="image-row">
+        <img src="images/a24.png" alt="butterfly step 13"><img src="images/a25.png" alt="butterfly step 13">
+    </div>
+    <p>Finish shaping both the <b>top</b> and <b>bottom</b> wings.</p>
+      
+    <h2>Step 14</h2>
+    <div class="image-row">
+        <img src="images/a26.png" alt="butterfly step 14">
+    </div>
+    <p>Make any final adjustments to smooth out the folds.</p>
+      
+    <h2>Step 15</h2>
+    <div class="image-row">
+        <img src="images/butterfly.png" alt="finished origami butterfly">
+    </div>
+    <p><b>Your butterfly is complete! Try different colors or sizes for fun variations!</b></p>
+  </main>
+  
+  <footer>
+    © 2025 Paperfold Archives · Created with quiet hands
+  </footer>
+</body>
+</html>
